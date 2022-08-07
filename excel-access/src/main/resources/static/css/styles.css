@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: bolder;
+}
+
+.contains {
+	margin: 100px auto;
+	text-align: center;
+	font-family: 'Roboto Flex', sans-serif;
+}
+
+.title {
+	margin-top: 40px;
+	font-size: 3rem;
+}
+
+.form {
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.form-file {
+	display: flex;
+	justify-content: space-between;
+	height: 3rem;
+	width: 20rem;
+	border: 1px solid #004374;
+	border-radius: 5px;
+}
+
+.form-file--title {
+	display: inline-block;
+	padding-left: 1.5rem;
+	line-height: 3rem;
+}
+
+.form-file--label {
+	padding: 0 10px;
+	color: #ffffff;
+	background-color: #384878;
+	cursor: pointer;
+	line-height: 3rem;
+	color: #ffffff;
+}
+
+.form-file--input {
+	display: none;
+}
+
+.form-submit {
+	margin-left: 30px; height : 3rem;
+	width: 6rem;
+	background-color: #e6a63a;
+	font-family: 'Roboto Flex', sans-serif;
+	border: 1px solid #b4874d;
+	font-size: 1rem;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 3rem;
+}
+.form-error{
+	color: red;
+	display:block;
+}
+.table {
+	margin: 30px auto;
+	border-collapse: collapse;
+	width: 80%;
+	border-radius: 20px;
+}
+
+.table td, .table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.table tr:hover {
+	background-color: #ddd;
+}
+
+.table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #384878;
+	color: white;
+}
